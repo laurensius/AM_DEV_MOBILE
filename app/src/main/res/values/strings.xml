@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pertaline - Pertamina Online</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+
+    <string name="btn_signin">Sign in</string>
+    <string name="btn_signup">Sign up</string>
+
+
+    <string name="txt_daftar_1"> Belum punya akun? </string>
+    <string name="txt_daftar_2"> Daftar di sini! </string>
+    <string name="txt_lokasi_anda"> Lokasi Anda </string>
+
+    <string name="title_bar">Pertamina Online</string>
+    <string name="notif_welcome">Selamat datang, silakan login</string>
+
+
+    <!--<string name="api_endpoint">http://192.168.0.102/pertamina/index.php/api/</string>-->
+    <string name="api_endpoint">http://192.168.3.9/pertamina/index.php/api/</string>
+    <string name="api_login">login/</string>
+    <string name="api_dealer_list">dealer_list/</string>
+    <string name="api_dealer_detail">dealer_detail/</string>
+    <string name="api_product_list">product_list/</string>
+    <string name="api_promo_list">dealer_promo_list/</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="sharedpreferences">PERTAMINA ONLINE</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

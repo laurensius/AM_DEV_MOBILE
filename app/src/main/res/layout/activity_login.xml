@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.am.pertaminapps.Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:paddingBottom="45dp">
+
+            <ImageView
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@mipmap/launcher"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColor="#999999"
+                android:padding="5dp"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/tv_notifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@color/textAbuDark"
+                android:textColor="@color/textPutih"
+                android:padding="5dp"
+                android:textSize="6pt"
+                android:textAlignment="center"
+                android:text="@string/notif_welcome"/>
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_username"
+                android:textColor="@color/textAbuDark"
+                android:textColorHint="@color/textAbu"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"
+                android:textColor="@color/textAbuDark"
+                android:textColorHint="@color/textAbu"
+                android:inputType="textPassword"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_signin"
+                android:textColor="@color/textPutih"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="@color/textAbuDark"
+                    android:text="@string/txt_daftar_1"/>
+                <TextView
+                    android:id="@+id/tv_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/textAbuDark"
+                    android:text="@string/txt_daftar_2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

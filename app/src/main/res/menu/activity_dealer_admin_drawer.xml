@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/dw_search"
+            android:title="Cari SPBU" />
+        <item
+            android:id="@+id/nav_promo"
+            android:icon="@drawable/dw_promo"
+            android:title="Promo" />
+        <item
+            android:id="@+id/nav_transaksi"
+            android:icon="@drawable/dw_transaksi"
+            android:title="Transaksi" />
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/dw_profil"
+                android:title="Profil" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/dw_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

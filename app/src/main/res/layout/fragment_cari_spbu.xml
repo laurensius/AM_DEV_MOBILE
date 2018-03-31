@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.am.pertaminapps.AppFragment.FragmentCariSPBU">
+
+    <LinearLayout
+        android:id="@+id/ll_wraper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/et_cari_spbu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cari SPBU di . . ."
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#888888"
+                    android:textColorHint="#DDDDDD"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:background="@color/backgrundNetral"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="48px"
+                    android:layout_height="48px"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dw_search"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <org.osmdroid.views.MapView
+                android:id="@+id/mv_carispbu"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_rvwrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_dealer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D50000</color>
+    <color name="colorPrimaryDark">#8e0000</color>
+    <color name="colorAccent">#424557</color>
+
+    <color name="textPutih">#FFFFFF</color>
+    <color name="textAbu">#999999</color>
+    <color name="textAbuDark">#666666</color>
+
+    <color name="backgroundSuccess">#00A900</color>
+    <color name="backgroundDanger">#D50000</color>
+    <color name="backgroundWarning">#AAAA00</color>
+    <color name="backgrundNetral">#DDDDDD</color>
+</resources>
